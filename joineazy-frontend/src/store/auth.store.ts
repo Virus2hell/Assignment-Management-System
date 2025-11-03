@@ -1,6 +1,6 @@
 // src/store/auth.store.ts
 import { create } from 'zustand'
-import type { Role, User } from '../api/types'
+import type { User } from '../api/types'
 
 type State = {
   user: Omit<User, 'token'> | null
