@@ -2,7 +2,7 @@
 
 > **A modern, role-based assignment management system built with React + TypeScript + Tailwind CSS**
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://assignment-management-system-indol.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://assignment-management-system-indol.vercel.app/login)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.3-61dafb)](https://reactjs.org/)
