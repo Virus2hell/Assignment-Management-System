@@ -263,7 +263,7 @@ npm run lint
 ```
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/yourusername">Mihir Patel</a>
+  Made with ❤️ by <a href="https://github.com/Virus2hell">Atharva Narvekar</a>
 </p>
 
 <p align="center">
