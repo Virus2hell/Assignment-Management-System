@@ -2,15 +2,13 @@
 
 > **A modern, role-based assignment management system built with React + TypeScript + Tailwind CSS**
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://joineazy-round-2.vercel.app)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://assignment-management-system-indol.vercel.app/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.3-61dafb)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8)](https://tailwindcss.com/)
 
 A production-ready frontend application that enables professors to create and manage course assignments with real-time analytics, while providing students with an intuitive interface to track assignments and acknowledge submissions with smart group-based logic.
-
-![Assignment Management Dashboard](https://via.placeholder.com/800x400/1470ef/ffffff?text=Dashboard+Screenshot)
 
 ---
 
