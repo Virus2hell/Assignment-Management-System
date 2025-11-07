@@ -52,8 +52,8 @@ A production-ready frontend application that enables professors to create and ma
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/joineazy-round-2.git
-cd joineazy-round-2
+git clone https://github.com/yourusername/assignmnet-managemnet-system.git
+cd joineazy-frontend
 
 # Install dependencies
 npm install
@@ -262,72 +262,6 @@ npm run lint
 }
 ```
 
-5. Deploy and get your live URL
-
-### Netlify
-
-Add `netlify.toml`:
-```toml
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-```
-
-Or create `public/_redirects`:
-```
-/*   /index.html   200
-```
-
----
-
-## 🧩 Key Implementation Details
-
-### Smart Group Acknowledgment Logic
-
-```typescript
-const canAcknowledge = (assignment: Assignment) => {
-  // Individual assignments: everyone can acknowledge
-  if (assignment.submissionType === 'individual') return true
-  
-  // Group assignments: only leader can acknowledge
-  if (!group) return false
-  return group.leaderId === user?.id
-}
-```
-
-### JWT Authentication Flow
-
-```typescript
-// Axios interceptor auto-attaches JWT
-http.interceptors.request.use((config) => {
-  const token = useAuthStore.getState().token
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`
-  }
-  return config
-})
-```
-
-### Role-Based Routing
-
-```typescript
-// Automatic redirect based on user role
-const destination = isProfessor(user.role) 
-  ? '/professor'  // Professor dashboard
-  : '/'           // Student dashboard
-  
-navigate(destination, { replace: true })
-```
-
----
-
-## 📊 Performance
-
-- **Bundle Size:** ~180KB (gzipped)
-- **First Contentful Paint:** < 1s
-- **Time to Interactive:** < 2s
-- **Lighthouse Score:** 95+ (Performance, Accessibility, Best Practices)
 
 ### Optimizations
 
